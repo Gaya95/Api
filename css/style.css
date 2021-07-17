@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: Roboto-Light;
+    src: url("../fonts/Roboto-Light.ttf");
+}
+*{
+    box-sizing: border-box;
+}
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 306px;
+    height: 180px;
+}
+#block{
+    width: 85vw;
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+.blockStyle{
+    width: 306px;
+    height: 350px;
+    margin: 15px 10px;
+    box-shadow: 0 0 40px #e2e4e9;
+}
+.styleClass{
+    font-family: Roboto-Regular;
+    padding: 10px 10px;
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    width: 300px; 
+    white-space:nowrap;
+}
+.styleClass2 {
+    font-family: Roboto-Regular;
+    padding: 0 10px 7px 70px;
+    color: #606265;
+    font-size: 14px;
+    font-family: Roboto-Light;
+}
+.styleClass3{
+    font-size: 12px !important;
+}
+.blockStyle2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.blockStyle2 img{
+    margin: 10px 0 0 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
